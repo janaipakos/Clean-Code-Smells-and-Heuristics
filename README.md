@@ -21,9 +21,9 @@ Builds should require one command to check out and one command to run.
 ###E2: Tests Require More Than One Step
 Tests should be run with one button click through an IDE, or else with one command. 
 #Functions
-##F1: Too Many Arguments
+###F1: Too Many Arguments
 Functions should have no arguments, then one, then two, then three. No more than three. 
-##F2: Output Arguments
+###F2: Output Arguments
 Arguments are inputs, not outputs. If somethings state must be changed, let it be the state of the called object. 
 ###F3: Flag Arguments
 Eliminate boolean arguments.
@@ -60,7 +60,7 @@ Favor code that is clear, rather than convenient. Do not group code that favors 
 Methods of one class should not be interested with the methods of another class.
 ###G15: Selector Arguments
 Do not flaunt false arguments at the end of functions.
-##G16: Obscured Intent
+###G16: Obscured Intent
 Code should not be magic or obscure.
 ###G17: Misplaced Responsibility
 Use clear function name as waypoints for where to place your code.
@@ -90,9 +90,9 @@ Make your conditionals more precise.
 Negative conditionals take more brain power to understand than a positive. 
 ###G31: Hidden Temporal Couplings
 Use arguents that make temporal coupling explicit.
-##G32: Don’t Be Arbitrary
+###G32: Don’t Be Arbitrary
 Your code's sturcture should communicate the reason for its structure.
-##G33: Encapsulate Boundary Conditions
+###G33: Encapsulate Boundary Conditions
 Avoid leaking +1's and -1's into your code.
 ###G34: Functions Should Descend Only One Level of Abstraction
 The toughest heuristic to follow. One level of abstraction below the function's described operation can help clarify your code.
