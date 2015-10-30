@@ -78,7 +78,7 @@ Understand what your code is doing.
 Avoid the brute force of switch/case. 
 ###G24: Follow Standard Conventions
 It doesn't matter what your teams convention is. Just that you have on and everyone follows it.
-##G25: Replace Magic Numbers with Named Constants
+###G25: Replace Magic Numbers with Named Constants
 Stop spelling out numbers.
 ###G26: Be Precise
 Don't be lazy. Think of possible results, then cover and test them.
