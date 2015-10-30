@@ -32,7 +32,7 @@ Discard uncalled methods. This is dead code.
 #General
 ###G1: Multiple Languages in One Source File
 Minimize the number of languages in a source file. Ideally, only one.
-###G2: Obvious Behavior Is Unimplemented
+###G2: Obvious Behavior is Unimplemented
 The result of a function or class should not be a surprise.
 ###G3: Incorrect Behavior at the Boundaries
 Write tests for every boundary condition.
@@ -82,7 +82,7 @@ It doesn't matter what your teams convention is. Just that you have on and every
 Stop spelling out numbers.
 ###G26: Be Precise
 Don't be lazy. Think of possible results, then cover and test them.
-###G27: Structure over Convention
+###G27: Structure Over Convention
 Design decisions should have a structure rather than a dogma.
 ###G28: Encapsulate Conditionals
 Make your conditionals more precise.
@@ -122,7 +122,7 @@ Test everything that can possibly break
 Use your IDE as a coverage tool.
 ###T3: Don’t Skip Trivial Tests
 ...
-###T4: An Ignored Test Is a Question about an Ambiguity
+###T4: An Ignored Test is a Question about an Ambiguity
 If your test is ignored, the code is brought into question.
 ###T5: Test Boundary Conditions
 The middle is usually covered. Remember the boundaries.
